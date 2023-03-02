@@ -1,0 +1,5 @@
+uniform_single_key_workload: {
+  num_keys: 1
+  size_mean: 16
+  size_std: 0
+}

@@ -1,0 +1,41 @@
+[Thursday March 02, 05:48:58.875113] Servers started.
+[Thursday March 02, 05:49:03.879692] Client lag ended.
+[Thursday March 02, 05:49:04.700873] Clients started and running for 0:00:15.
+[Thursday March 02, 05:49:47.461666] Clients finished and processes terminated.
+[Thursday March 02, 05:49:47.461849] Reading recorder data from the following CSVs:
+[Thursday March 02, 05:49:47.461870] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_0_data.csv
+[Thursday March 02, 05:49:47.461884] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_1_data.csv
+[Thursday March 02, 05:49:47.461895] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_2_data.csv
+[Thursday March 02, 05:49:47.461906] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_3_data.csv
+[Thursday March 02, 05:49:47.461917] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_4_data.csv
+[Thursday March 02, 05:49:47.461931] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_5_data.csv
+[Thursday March 02, 05:49:47.461941] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_6_data.csv
+[Thursday March 02, 05:49:47.461952] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_7_data.csv
+[Thursday March 02, 05:49:47.461962] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_8_data.csv
+[Thursday March 02, 05:49:47.461973] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_9_data.csv
+[Thursday March 02, 05:49:47.461983] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_10_data.csv
+[Thursday March 02, 05:49:49.452062] Recorder data read.
+[Thursday March 02, 05:49:49.452147] Setting aggregate recorder data index.
+[Thursday March 02, 05:49:49.457560] Aggregate recorder data index set.
+[Thursday March 02, 05:49:49.457631] Sorting aggregate recorder data on index.
+[Thursday March 02, 05:49:49.486843] Aggregate recorder data sorted on index.
+[Thursday March 02, 05:49:49.486931] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_0_data.csv.
+[Thursday March 02, 05:49:49.490561] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_1_data.csv.
+[Thursday March 02, 05:49:49.494061] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_2_data.csv.
+[Thursday March 02, 05:49:49.496750] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_3_data.csv.
+[Thursday March 02, 05:49:49.499620] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_4_data.csv.
+[Thursday March 02, 05:49:49.502351] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_5_data.csv.
+[Thursday March 02, 05:49:49.505155] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_6_data.csv.
+[Thursday March 02, 05:49:49.507701] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_7_data.csv.
+[Thursday March 02, 05:49:49.510440] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_8_data.csv.
+[Thursday March 02, 05:49:49.512753] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_9_data.csv.
+[Thursday March 02, 05:49:49.515414] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/012/client_10_data.csv.
+[Thursday March 02, 05:49:49.518013] Individual recorder data removed.
+[Thursday March 02, 05:49:49.518344] Dropping prefix of aggregate recorder data.
+[Thursday March 02, 05:49:49.528886] Prefix of aggregate recorder data dropped.
+[Thursday March 02, 05:49:49.544427] Computing on aggregate recorder data for write.
+[Thursday March 02, 05:49:49.577969] - Computing latency.
+[Thursday March 02, 05:49:49.607313] - Latency computed.
+[Thursday March 02, 05:49:49.607386] - Computing 1 second start throughput.
+[Thursday March 02, 05:49:49.651685] - 1 second start throughput computed.
+[Thursday March 02, 05:49:49.651756] Aggregate recorder data for write computed.

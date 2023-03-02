@@ -1,0 +1,8 @@
+[34m[Mar 02 06:53:47.819000000] [INFO] [Thread 1] [0mActor frankenpaxos.unreplicated.Client@77f80c04 registering on address NettyTcpAddress(/10.138.0.36:10000).
+[34m[Mar 02 06:53:47.962000000] [INFO] [Thread 1] [0mClient warmup started.
+[34m[Mar 02 06:53:47.983000000] [INFO] [Thread 10] [0mClient socket on address /10.138.0.36:48886 (a.k.a. NettyTcpAddress(/10.138.0.36:10000)) established connection with /10.138.0.40:10200.
+[34m[Mar 02 06:53:57.963000000] [INFO] [Thread 1] [0mClient warmup finished successfully.
+[34m[Mar 02 06:54:02.970000000] [INFO] [Thread 1] [0mClients started.
+[34m[Mar 02 06:54:17.971000000] [INFO] [Thread 1] [0mClients finished successfully.
+[34m[Mar 02 06:54:17.972000000] [INFO] [Thread 1] [0mShutting down transport.
+[34m[Mar 02 06:54:17.973000000] [INFO] [Thread 1] [0mTransport shut down.

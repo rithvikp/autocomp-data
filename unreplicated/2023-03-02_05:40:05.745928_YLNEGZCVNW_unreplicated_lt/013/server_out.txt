@@ -1,0 +1,15 @@
+[34m[Mar 02 05:49:50.428000000] [INFO] [Thread 1] [0mActor frankenpaxos.unreplicated.Server@4cf4d528 registering on address NettyTcpAddress(/10.138.0.40:11400).
+[34m[Mar 02 05:49:56.254000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:11400 established connection with /10.138.0.36:47596.
+[34m[Mar 02 05:49:56.435000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:11400 established connection with /10.138.0.42:36778.
+[34m[Mar 02 05:49:56.459000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:11400 established connection with /10.138.0.37:41258.
+[34m[Mar 02 05:49:56.512000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:11400 established connection with /10.138.0.35:34766.
+[34m[Mar 02 05:49:56.559000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:11400 established connection with /10.138.0.48:38600.
+[34m[Mar 02 05:49:56.669000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:11400 established connection with /10.138.0.43:52168.
+[34m[Mar 02 05:49:56.708000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:11400 established connection with /10.138.0.34:57058.
+[34m[Mar 02 05:49:56.785000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:11400 established connection with /10.138.0.45:40004.
+[34m[Mar 02 05:49:56.809000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:11400 established connection with /10.138.0.38:58844.
+[34m[Mar 02 05:49:56.835000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:11400 established connection with /10.138.0.44:37408.
+[34m[Mar 02 05:49:56.968000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:11400 established connection with /10.138.0.41:50248.
+[34m[Mar 02 05:49:57.067000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:11400 established connection with /10.138.0.47:56750.
+[34m[Mar 02 05:49:57.139000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:11400 established connection with /10.138.0.46:57564.
+[34m[Mar 02 05:49:57.246000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:11400 established connection with /10.138.0.39:58460.

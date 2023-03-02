@@ -1,0 +1,21 @@
+[Thursday March 02, 06:52:02.383412] Servers started.
+[Thursday March 02, 06:52:07.388624] Client lag ended.
+[Thursday March 02, 06:52:07.460966] Clients started and running for 0:00:15.
+[Thursday March 02, 06:52:50.737095] Clients finished and processes terminated.
+[Thursday March 02, 06:52:50.737247] Reading recorder data from the following CSVs:
+[Thursday March 02, 06:52:50.737269] - /mnt/nfs/tmp/2023-03-02_06:50:43.799913_KBTZXSUVIL_unreplicated_lt/003/client_0_data.csv
+[Thursday March 02, 06:52:51.764650] Recorder data read.
+[Thursday March 02, 06:52:51.764747] Setting aggregate recorder data index.
+[Thursday March 02, 06:52:51.768648] Aggregate recorder data index set.
+[Thursday March 02, 06:52:51.768714] Sorting aggregate recorder data on index.
+[Thursday March 02, 06:52:51.771548] Aggregate recorder data sorted on index.
+[Thursday March 02, 06:52:51.771658] Removing /mnt/nfs/tmp/2023-03-02_06:50:43.799913_KBTZXSUVIL_unreplicated_lt/003/client_0_data.csv.
+[Thursday March 02, 06:52:51.776376] Individual recorder data removed.
+[Thursday March 02, 06:52:51.776657] Dropping prefix of aggregate recorder data.
+[Thursday March 02, 06:52:51.783660] Prefix of aggregate recorder data dropped.
+[Thursday March 02, 06:52:51.792219] Computing on aggregate recorder data for write.
+[Thursday March 02, 06:52:51.806397] - Computing latency.
+[Thursday March 02, 06:52:51.823756] - Latency computed.
+[Thursday March 02, 06:52:51.823831] - Computing 1 second start throughput.
+[Thursday March 02, 06:52:51.851088] - 1 second start throughput computed.
+[Thursday March 02, 06:52:51.851158] Aggregate recorder data for write computed.

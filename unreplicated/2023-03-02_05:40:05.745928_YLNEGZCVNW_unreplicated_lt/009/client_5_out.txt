@@ -1,0 +1,9 @@
+[34m[Mar 02 05:46:32.348000000] [INFO] [Thread 1] [0mActor frankenpaxos.unreplicated.Client@77f80c04 registering on address NettyTcpAddress(/10.138.0.43:10500).
+[34m[Mar 02 05:46:32.522000000] [INFO] [Thread 1] [0mClient warmup started.
+[34m[Mar 02 05:46:32.547000000] [INFO] [Thread 10] [0mClient socket on address /10.138.0.43:54222 (a.k.a. NettyTcpAddress(/10.138.0.43:10500)) established connection with /10.138.0.40:10600.
+[34m[Mar 02 05:46:47.229000000] [INFO] [Thread 1] [0mClient warmup finished successfully.
+[34m[Mar 02 05:46:52.235000000] [INFO] [Thread 1] [0mClients started.
+[33m[Mar 02 05:47:12.237000000] [WARN] [Thread 1] [0mClient futures timed out!
+[33m[Mar 02 05:47:12.237000000] [WARN] [Thread 1] [0mjava.util.concurrent.TimeoutException: Futures timed out after [20 seconds]
+[34m[Mar 02 05:47:12.239000000] [INFO] [Thread 1] [0mShutting down transport.
+[34m[Mar 02 05:47:12.239000000] [INFO] [Thread 1] [0mTransport shut down.

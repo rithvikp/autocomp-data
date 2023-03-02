@@ -1,0 +1,47 @@
+[Thursday March 02, 05:49:49.819888] Servers started.
+[Thursday March 02, 05:49:54.825268] Client lag ended.
+[Thursday March 02, 05:49:55.840963] Clients started and running for 0:00:15.
+[Thursday March 02, 05:50:38.411031] Clients finished and processes terminated.
+[Thursday March 02, 05:50:38.411255] Reading recorder data from the following CSVs:
+[Thursday March 02, 05:50:38.411287] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_0_data.csv
+[Thursday March 02, 05:50:38.411302] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_1_data.csv
+[Thursday March 02, 05:50:38.411311] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_2_data.csv
+[Thursday March 02, 05:50:38.411319] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_3_data.csv
+[Thursday March 02, 05:50:38.411335] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_4_data.csv
+[Thursday March 02, 05:50:38.411347] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_5_data.csv
+[Thursday March 02, 05:50:38.411500] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_6_data.csv
+[Thursday March 02, 05:50:38.411566] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_7_data.csv
+[Thursday March 02, 05:50:38.411581] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_8_data.csv
+[Thursday March 02, 05:50:38.411630] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_9_data.csv
+[Thursday March 02, 05:50:38.411643] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_10_data.csv
+[Thursday March 02, 05:50:38.411657] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_11_data.csv
+[Thursday March 02, 05:50:38.411668] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_12_data.csv
+[Thursday March 02, 05:50:38.411679] - /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_13_data.csv
+[Thursday March 02, 05:50:40.429637] Recorder data read.
+[Thursday March 02, 05:50:40.429851] Setting aggregate recorder data index.
+[Thursday March 02, 05:50:40.440829] Aggregate recorder data index set.
+[Thursday March 02, 05:50:40.440908] Sorting aggregate recorder data on index.
+[Thursday March 02, 05:50:40.472450] Aggregate recorder data sorted on index.
+[Thursday March 02, 05:50:40.472537] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_0_data.csv.
+[Thursday March 02, 05:50:40.476181] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_1_data.csv.
+[Thursday March 02, 05:50:40.479238] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_2_data.csv.
+[Thursday March 02, 05:50:40.482152] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_3_data.csv.
+[Thursday March 02, 05:50:40.484910] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_4_data.csv.
+[Thursday March 02, 05:50:40.488176] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_5_data.csv.
+[Thursday March 02, 05:50:40.490956] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_6_data.csv.
+[Thursday March 02, 05:50:40.493344] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_7_data.csv.
+[Thursday March 02, 05:50:40.495759] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_8_data.csv.
+[Thursday March 02, 05:50:40.498191] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_9_data.csv.
+[Thursday March 02, 05:50:40.500579] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_10_data.csv.
+[Thursday March 02, 05:50:40.503129] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_11_data.csv.
+[Thursday March 02, 05:50:40.505279] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_12_data.csv.
+[Thursday March 02, 05:50:40.507404] Removing /mnt/nfs/tmp/2023-03-02_05:40:05.745928_YLNEGZCVNW_unreplicated_lt/013/client_13_data.csv.
+[Thursday March 02, 05:50:40.509415] Individual recorder data removed.
+[Thursday March 02, 05:50:40.509717] Dropping prefix of aggregate recorder data.
+[Thursday March 02, 05:50:40.520818] Prefix of aggregate recorder data dropped.
+[Thursday March 02, 05:50:40.537684] Computing on aggregate recorder data for write.
+[Thursday March 02, 05:50:40.568974] - Computing latency.
+[Thursday March 02, 05:50:40.598900] - Latency computed.
+[Thursday March 02, 05:50:40.598974] - Computing 1 second start throughput.
+[Thursday March 02, 05:50:40.645815] - 1 second start throughput computed.
+[Thursday March 02, 05:50:40.645893] Aggregate recorder data for write computed.

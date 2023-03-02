@@ -1,0 +1,5 @@
+[34m[Mar 02 06:55:19.570000000] [INFO] [Thread 1] [0mActor frankenpaxos.unreplicated.Server@4cf4d528 registering on address NettyTcpAddress(/10.138.0.40:10400).
+[34m[Mar 02 06:55:25.323000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:10400 established connection with /10.138.0.57:39222.
+[34m[Mar 02 06:55:25.332000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:10400 established connection with /10.138.0.36:45776.
+[34m[Mar 02 06:55:25.493000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:10400 established connection with /10.138.0.56:35438.
+[34m[Mar 02 06:55:25.519000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.40:10400 established connection with /10.138.0.37:43886.

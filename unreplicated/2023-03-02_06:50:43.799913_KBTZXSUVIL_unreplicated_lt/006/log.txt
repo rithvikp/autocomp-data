@@ -1,0 +1,25 @@
+[Thursday March 02, 06:54:32.760003] Servers started.
+[Thursday March 02, 06:54:37.765215] Client lag ended.
+[Thursday March 02, 06:54:37.972991] Clients started and running for 0:00:15.
+[Thursday March 02, 06:55:16.111429] Clients finished and processes terminated.
+[Thursday March 02, 06:55:16.111560] Reading recorder data from the following CSVs:
+[Thursday March 02, 06:55:16.111579] - /mnt/nfs/tmp/2023-03-02_06:50:43.799913_KBTZXSUVIL_unreplicated_lt/006/client_0_data.csv
+[Thursday March 02, 06:55:16.111634] - /mnt/nfs/tmp/2023-03-02_06:50:43.799913_KBTZXSUVIL_unreplicated_lt/006/client_1_data.csv
+[Thursday March 02, 06:55:16.111649] - /mnt/nfs/tmp/2023-03-02_06:50:43.799913_KBTZXSUVIL_unreplicated_lt/006/client_2_data.csv
+[Thursday March 02, 06:55:18.723160] Recorder data read.
+[Thursday March 02, 06:55:18.723276] Setting aggregate recorder data index.
+[Thursday March 02, 06:55:18.731642] Aggregate recorder data index set.
+[Thursday March 02, 06:55:18.731741] Sorting aggregate recorder data on index.
+[Thursday March 02, 06:55:18.777654] Aggregate recorder data sorted on index.
+[Thursday March 02, 06:55:18.777747] Removing /mnt/nfs/tmp/2023-03-02_06:50:43.799913_KBTZXSUVIL_unreplicated_lt/006/client_0_data.csv.
+[Thursday March 02, 06:55:18.782513] Removing /mnt/nfs/tmp/2023-03-02_06:50:43.799913_KBTZXSUVIL_unreplicated_lt/006/client_1_data.csv.
+[Thursday March 02, 06:55:18.786437] Removing /mnt/nfs/tmp/2023-03-02_06:50:43.799913_KBTZXSUVIL_unreplicated_lt/006/client_2_data.csv.
+[Thursday March 02, 06:55:18.791049] Individual recorder data removed.
+[Thursday March 02, 06:55:18.791378] Dropping prefix of aggregate recorder data.
+[Thursday March 02, 06:55:18.804312] Prefix of aggregate recorder data dropped.
+[Thursday March 02, 06:55:18.822685] Computing on aggregate recorder data for write.
+[Thursday March 02, 06:55:18.860161] - Computing latency.
+[Thursday March 02, 06:55:18.893854] - Latency computed.
+[Thursday March 02, 06:55:18.893925] - Computing 1 second start throughput.
+[Thursday March 02, 06:55:18.950443] - 1 second start throughput computed.
+[Thursday March 02, 06:55:18.950516] Aggregate recorder data for write computed.
