@@ -1,0 +1,15 @@
+[Thursday March 02, 04:06:37.407571] Servers started.
+[Thursday March 02, 04:06:38.408863] Client lag ended.
+[Thursday March 02, 04:06:38.480904] Clients started and running for 0:00:10.
+[Thursday March 02, 04:06:48.613897] Clients finished and processes terminated.
+[Thursday March 02, 04:06:48.614023] Reading recorder data from the following CSVs:
+[Thursday March 02, 04:06:48.614039] - /mnt/nfs/tmp/2023-03-02_04:05:27.705197_VCHYHDDGQC_echo_smoke/006/client_data.csv
+[Thursday March 02, 04:06:49.697331] Recorder data read.
+[Thursday March 02, 04:06:49.697426] Setting aggregate recorder data index.
+[Thursday March 02, 04:06:49.702026] Aggregate recorder data index set.
+[Thursday March 02, 04:06:49.702122] Sorting aggregate recorder data on index.
+[Thursday March 02, 04:06:49.705645] Aggregate recorder data sorted on index.
+[Thursday March 02, 04:06:49.705735] Removing /mnt/nfs/tmp/2023-03-02_04:05:27.705197_VCHYHDDGQC_echo_smoke/006/client_data.csv.
+[Thursday March 02, 04:06:49.711048] Individual recorder data removed.
+[Thursday March 02, 04:06:49.711421] Dropping prefix of aggregate recorder data.
+[Thursday March 02, 04:06:49.722902] Prefix of aggregate recorder data dropped.

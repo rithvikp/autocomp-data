@@ -1,0 +1,22 @@
+[34m[Mar 02 04:05:30.030000000] [INFO] [Thread 1] [0mActor frankenpaxos.echo.BenchmarkClient@16f7c8c1 registering on address NettyTcpAddress(/10.138.0.35:10000).
+[34m[Mar 02 04:05:30.150000000] [INFO] [Thread 1] [0mClient warmup started.
+[36m[Mar 02 04:05:30.161000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.35:10000) and NettyTcpAddress(/10.138.0.34:10100), so we are creating one.
+[36m[Mar 02 04:05:30.195000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.35:10000) to NettyTcpAddress(/10.138.0.34:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 02 04:05:30.195000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.35:10000) to NettyTcpAddress(/10.138.0.34:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 02 04:05:30.196000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.35:10000) to NettyTcpAddress(/10.138.0.34:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 02 04:05:30.196000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.35:10000) to NettyTcpAddress(/10.138.0.34:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 02 04:05:30.196000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.35:10000) to NettyTcpAddress(/10.138.0.34:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 02 04:05:30.196000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.35:10000) to NettyTcpAddress(/10.138.0.34:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 02 04:05:30.196000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.35:10000) to NettyTcpAddress(/10.138.0.34:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 02 04:05:30.196000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.35:10000) to NettyTcpAddress(/10.138.0.34:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 02 04:05:30.197000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.35:10000) to NettyTcpAddress(/10.138.0.34:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 02 04:05:30.197000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.35:10000) to NettyTcpAddress(/10.138.0.34:10100), but a channel is currently pending. The message is being buffered for later.
+[34m[Mar 02 04:05:30.201000000] [INFO] [Thread 10] [0mClient socket on address /10.138.0.35:34874 (a.k.a. NettyTcpAddress(/10.138.0.35:10000)) established connection with /10.138.0.34:10100.
+[36m[Mar 02 04:05:30.202000000] [DEBUG] [Thread 10] [0mA channel between local address NettyTcpAddress(/10.138.0.35:10000) and remote address NettyTcpAddress(/10.138.0.34:10100) is being registered, and a set of 11 pending messages was found. We are sending the pending messages along the channel.
+[34m[Mar 02 04:05:33.151000000] [INFO] [Thread 1] [0mClient warmup finished successfully.
+[34m[Mar 02 04:05:34.156000000] [INFO] [Thread 1] [0mClients started.
+[33m[Mar 02 04:05:37.158000000] [WARN] [Thread 1] [0mClient futures timed out!
+[33m[Mar 02 04:05:37.159000000] [WARN] [Thread 1] [0mjava.util.concurrent.TimeoutException: Futures timed out after [3 seconds]
+[34m[Mar 02 04:05:37.160000000] [INFO] [Thread 1] [0mShutting down transport.
+[34m[Mar 02 04:05:37.160000000] [INFO] [Thread 1] [0mTransport shut down.
+[36m[Mar 02 04:05:37.161000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.35:10000) and remote address NettyTcpAddress(/10.138.0.34:10100).

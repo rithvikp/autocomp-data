@@ -1,0 +1,4 @@
+[34m[Mar 02 04:06:37.887000000] [INFO] [Thread 1] [0mActor frankenpaxos.echo.BenchmarkServer@74a10858 registering on address NettyTcpAddress(/10.138.0.34:10100).
+[34m[Mar 02 04:06:39.347000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.34:10100 established connection with /10.138.0.35:33466.
+[36m[Mar 02 04:06:39.356000000] [DEBUG] [Thread 10] [0mSuccessfully registered channel between local address NettyTcpAddress(/10.138.0.34:10100) and remote address NettyTcpAddress(/10.138.0.35:33466).
+[36m[Mar 02 04:06:46.276000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.34:10100) and remote address NettyTcpAddress(/10.138.0.35:33466).

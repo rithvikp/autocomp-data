@@ -1,0 +1,10 @@
+{
+    "suite_directory": "/mnt/nfs/tmp/",
+    "jar": "/mnt/nfs/tmp/frankenpaxos-assembly-0.1.0-SNAPSHOT.jar",
+    "log_level": "info",
+    "profile": false,
+    "monitor": false,
+    "address": null,
+    "cluster": "../clusters/echo/multi_node_cluster.json",
+    "identity_file": "/home/rithvik/.ssh/id_ed25519"
+}
