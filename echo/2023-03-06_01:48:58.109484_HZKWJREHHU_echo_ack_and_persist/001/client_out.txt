@@ -1,0 +1,24 @@
+[34m[Mar 06 01:49:00.565000000] [INFO] [Thread 1] [0mActor frankenpaxos.echo.BenchmarkClient@319b92f3 registering on address NettyTcpAddress(/10.138.0.61:10000).
+[34m[Mar 06 01:49:00.720000000] [INFO] [Thread 1] [0mClient warmup started.
+[36m[Mar 06 01:49:00.731000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:00.772000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:00.773000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:00.773000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:00.773000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:00.773000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:00.773000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:00.773000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:00.773000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:00.774000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:00.774000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[34m[Mar 06 01:49:00.778000000] [INFO] [Thread 10] [0mClient socket on address /10.138.0.61:59936 (a.k.a. NettyTcpAddress(/10.138.0.61:10000)) established connection with /10.138.0.60:10100.
+[36m[Mar 06 01:49:00.779000000] [DEBUG] [Thread 10] [0mA channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100) is being registered, and a set of 11 pending messages was found. We are sending the pending messages along the channel.
+[34m[Mar 06 01:49:03.721000000] [INFO] [Thread 1] [0mClient warmup finished successfully.
+[34m[Mar 06 01:49:04.727000000] [INFO] [Thread 1] [0mClients started.
+[33m[Mar 06 01:49:07.729000000] [WARN] [Thread 1] [0mClient futures timed out!
+[33m[Mar 06 01:49:07.730000000] [WARN] [Thread 1] [0mjava.util.concurrent.TimeoutException: Futures timed out after [3 seconds]
+[34m[Mar 06 01:49:07.730000000] [INFO] [Thread 1] [0mShutting down transport.
+[34m[Mar 06 01:49:07.731000000] [INFO] [Thread 1] [0mTransport shut down.
+[34m[Mar 06 01:49:07.732000000] [INFO] [Thread 1] [0mStopping prometheus.
+[36m[Mar 06 01:49:07.732000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[34m[Mar 06 01:49:07.734000000] [INFO] [Thread 1] [0mPrometheus stopped.

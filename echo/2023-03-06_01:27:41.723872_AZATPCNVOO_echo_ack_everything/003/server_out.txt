@@ -1,0 +1,1013 @@
+[34m[Mar 06 01:28:08.930000000] [INFO] [Thread 1] [0mActor frankenpaxos.echo.BenchmarkServer@23fe1d71 registering on address NettyTcpAddress(/10.138.0.60:10100).
+[34m[Mar 06 01:28:10.430000000] [INFO] [Thread 10] [0mServer socket on address /10.138.0.60:10100 established connection with /10.138.0.61:58242.
+[36m[Mar 06 01:28:10.439000000] [DEBUG] [Thread 10] [0mSuccessfully registered channel between local address NettyTcpAddress(/10.138.0.60:10100) and remote address NettyTcpAddress(/10.138.0.61:58242).
+{Heap before GC invocations=1 (full 0):
+ PSYoungGen      total 29696K, used 25600K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 25600K, 100% used [0x00000000fdf00000,0x00000000ff800000,0x00000000ff800000)
+  from space 4096K, 0% used [0x00000000ffc00000,0x00000000ffc00000,0x0000000100000000)
+  to   space 4096K, 0% used [0x00000000ff800000,0x00000000ff800000,0x00000000ffc00000)
+ ParOldGen       total 68608K, used 0K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 0% used [0x00000000f9c00000,0x00000000f9c00000,0x00000000fdf00000)
+ Metaspace       used 14702K, capacity 15090K, committed 15488K, reserved 1062912K
+  class space    used 1997K, capacity 2094K, committed 2176K, reserved 1048576K
+2023-03-06T01:28:10.477+0000: 2.103: [GC (Allocation Failure) [PSYoungGen: 25600K->4089K(29696K)] 25600K->7555K(98304K), 0.0076390 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=1 (full 0):
+ PSYoungGen      total 29696K, used 4089K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 25600K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff800000)
+  from space 4096K, 99% used [0x00000000ff800000,0x00000000ffbfe708,0x00000000ffc00000)
+  to   space 4096K, 0% used [0x00000000ffc00000,0x00000000ffc00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 3465K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 5% used [0x00000000f9c00000,0x00000000f9f625e8,0x00000000fdf00000)
+ Metaspace       used 14702K, capacity 15090K, committed 15488K, reserved 1062912K
+  class space    used 1997K, capacity 2094K, committed 2176K, reserved 1048576K
+}
+{Heap before GC invocations=2 (full 0):
+ PSYoungGen      total 29696K, used 29689K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 25600K, 100% used [0x00000000fdf00000,0x00000000ff800000,0x00000000ff800000)
+  from space 4096K, 99% used [0x00000000ff800000,0x00000000ffbfe708,0x00000000ffc00000)
+  to   space 4096K, 0% used [0x00000000ffc00000,0x00000000ffc00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 3465K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 5% used [0x00000000f9c00000,0x00000000f9f625e8,0x00000000fdf00000)
+ Metaspace       used 16020K, capacity 16402K, committed 16640K, reserved 1062912K
+  class space    used 2090K, capacity 2190K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:10.984+0000: 2.610: [GC (Allocation Failure) [PSYoungGen: 29689K->2882K(29696K)] 33155K->6356K(98304K), 0.0049055 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=2 (full 0):
+ PSYoungGen      total 29696K, used 2882K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 25600K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff800000)
+  from space 4096K, 70% used [0x00000000ffc00000,0x00000000ffed0bc8,0x0000000100000000)
+  to   space 4096K, 0% used [0x00000000ff800000,0x00000000ff800000,0x00000000ffc00000)
+ ParOldGen       total 68608K, used 3473K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 5% used [0x00000000f9c00000,0x00000000f9f645e8,0x00000000fdf00000)
+ Metaspace       used 16020K, capacity 16402K, committed 16640K, reserved 1062912K
+  class space    used 2090K, capacity 2190K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=3 (full 0):
+ PSYoungGen      total 29696K, used 28482K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 25600K, 100% used [0x00000000fdf00000,0x00000000ff800000,0x00000000ff800000)
+  from space 4096K, 70% used [0x00000000ffc00000,0x00000000ffed0bc8,0x0000000100000000)
+  to   space 4096K, 0% used [0x00000000ff800000,0x00000000ff800000,0x00000000ffc00000)
+ ParOldGen       total 68608K, used 3473K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 5% used [0x00000000f9c00000,0x00000000f9f645e8,0x00000000fdf00000)
+ Metaspace       used 16104K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2098K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:11.220+0000: 2.846: [GC (Allocation Failure) [PSYoungGen: 28482K->2528K(29696K)] 31956K->6009K(98304K), 0.0039117 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=3 (full 0):
+ PSYoungGen      total 29696K, used 2528K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 25600K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff800000)
+  from space 4096K, 61% used [0x00000000ff800000,0x00000000ffa78040,0x00000000ffc00000)
+  to   space 4096K, 0% used [0x00000000ffc00000,0x00000000ffc00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 3481K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 5% used [0x00000000f9c00000,0x00000000f9f665e8,0x00000000fdf00000)
+ Metaspace       used 16104K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2098K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=4 (full 0):
+ PSYoungGen      total 29696K, used 28128K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 25600K, 100% used [0x00000000fdf00000,0x00000000ff800000,0x00000000ff800000)
+  from space 4096K, 61% used [0x00000000ff800000,0x00000000ffa78040,0x00000000ffc00000)
+  to   space 4096K, 0% used [0x00000000ffc00000,0x00000000ffc00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 3481K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 5% used [0x00000000f9c00000,0x00000000f9f665e8,0x00000000fdf00000)
+ Metaspace       used 16121K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:11.376+0000: 3.002: [GC (Allocation Failure) [PSYoungGen: 28128K->2544K(29696K)] 31609K->6033K(98304K), 0.0048715 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=4 (full 0):
+ PSYoungGen      total 29696K, used 2544K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 25600K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff800000)
+  from space 4096K, 62% used [0x00000000ffc00000,0x00000000ffe7c030,0x0000000100000000)
+  to   space 4096K, 0% used [0x00000000ff800000,0x00000000ff800000,0x00000000ffc00000)
+ ParOldGen       total 68608K, used 3489K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 5% used [0x00000000f9c00000,0x00000000f9f685e8,0x00000000fdf00000)
+ Metaspace       used 16121K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=5 (full 0):
+ PSYoungGen      total 29696K, used 28144K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 25600K, 100% used [0x00000000fdf00000,0x00000000ff800000,0x00000000ff800000)
+  from space 4096K, 62% used [0x00000000ffc00000,0x00000000ffe7c030,0x0000000100000000)
+  to   space 4096K, 0% used [0x00000000ff800000,0x00000000ff800000,0x00000000ffc00000)
+ ParOldGen       total 68608K, used 3489K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 5% used [0x00000000f9c00000,0x00000000f9f685e8,0x00000000fdf00000)
+ Metaspace       used 16128K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:11.505+0000: 3.131: [GC (Allocation Failure) [PSYoungGen: 28144K->2512K(28160K)] 31633K->6001K(96768K), 0.0041171 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=5 (full 0):
+ PSYoungGen      total 28160K, used 2512K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 25600K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff800000)
+  from space 2560K, 98% used [0x00000000ff800000,0x00000000ffa74030,0x00000000ffa80000)
+  to   space 5632K, 0% used [0x00000000ffa80000,0x00000000ffa80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 3489K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 5% used [0x00000000f9c00000,0x00000000f9f685e8,0x00000000fdf00000)
+ Metaspace       used 16128K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=6 (full 0):
+ PSYoungGen      total 28160K, used 28112K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 25600K, 100% used [0x00000000fdf00000,0x00000000ff800000,0x00000000ff800000)
+  from space 2560K, 98% used [0x00000000ff800000,0x00000000ffa74030,0x00000000ffa80000)
+  to   space 5632K, 0% used [0x00000000ffa80000,0x00000000ffa80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 3489K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 5% used [0x00000000f9c00000,0x00000000f9f685e8,0x00000000fdf00000)
+ Metaspace       used 16136K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:11.590+0000: 3.216: [GC (Allocation Failure) [PSYoungGen: 28112K->2496K(24064K)] 31601K->5993K(92672K), 0.0048332 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=6 (full 0):
+ PSYoungGen      total 24064K, used 2496K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 18432K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff100000)
+  from space 5632K, 44% used [0x00000000ffa80000,0x00000000ffcf0040,0x0000000100000000)
+  to   space 7680K, 0% used [0x00000000ff100000,0x00000000ff100000,0x00000000ff880000)
+ ParOldGen       total 68608K, used 3497K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 5% used [0x00000000f9c00000,0x00000000f9f6a5e8,0x00000000fdf00000)
+ Metaspace       used 16136K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=7 (full 0):
+ PSYoungGen      total 24064K, used 20928K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 18432K, 100% used [0x00000000fdf00000,0x00000000ff100000,0x00000000ff100000)
+  from space 5632K, 44% used [0x00000000ffa80000,0x00000000ffcf0040,0x0000000100000000)
+  to   space 7680K, 0% used [0x00000000ff100000,0x00000000ff100000,0x00000000ff880000)
+ ParOldGen       total 68608K, used 3497K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 5% used [0x00000000f9c00000,0x00000000f9f6a5e8,0x00000000fdf00000)
+ Metaspace       used 16143K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:11.653+0000: 3.279: [GC (Allocation Failure) [PSYoungGen: 20928K->96K(26112K)] 24425K->6050K(94720K), 0.0050151 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=7 (full 0):
+ PSYoungGen      total 26112K, used 96K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 18432K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff100000)
+  from space 7680K, 1% used [0x00000000ff100000,0x00000000ff118000,0x00000000ff880000)
+  to   space 7680K, 0% used [0x00000000ff880000,0x00000000ff880000,0x0000000100000000)
+ ParOldGen       total 68608K, used 5954K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1d0b50,0x00000000fdf00000)
+ Metaspace       used 16143K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=8 (full 0):
+ PSYoungGen      total 26112K, used 18528K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 18432K, 100% used [0x00000000fdf00000,0x00000000ff100000,0x00000000ff100000)
+  from space 7680K, 1% used [0x00000000ff100000,0x00000000ff118000,0x00000000ff880000)
+  to   space 7680K, 0% used [0x00000000ff880000,0x00000000ff880000,0x0000000100000000)
+ ParOldGen       total 68608K, used 5954K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1d0b50,0x00000000fdf00000)
+ Metaspace       used 16143K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:11.732+0000: 3.358: [GC (Allocation Failure) [PSYoungGen: 18528K->32K(26112K)] 24482K->6034K(94720K), 0.0024277 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=8 (full 0):
+ PSYoungGen      total 26112K, used 32K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 18432K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff100000)
+  from space 7680K, 0% used [0x00000000ff880000,0x00000000ff888000,0x0000000100000000)
+  to   space 7680K, 0% used [0x00000000ff100000,0x00000000ff100000,0x00000000ff880000)
+ ParOldGen       total 68608K, used 6002K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1dcb50,0x00000000fdf00000)
+ Metaspace       used 16143K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=9 (full 0):
+ PSYoungGen      total 26112K, used 18464K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 18432K, 100% used [0x00000000fdf00000,0x00000000ff100000,0x00000000ff100000)
+  from space 7680K, 0% used [0x00000000ff880000,0x00000000ff888000,0x0000000100000000)
+  to   space 7680K, 0% used [0x00000000ff100000,0x00000000ff100000,0x00000000ff880000)
+ ParOldGen       total 68608K, used 6002K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1dcb50,0x00000000fdf00000)
+ Metaspace       used 16144K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:11.804+0000: 3.430: [GC (Allocation Failure) [PSYoungGen: 18464K->64K(26112K)] 24466K->6082K(94720K), 0.0016703 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=9 (full 0):
+ PSYoungGen      total 26112K, used 64K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 18432K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff100000)
+  from space 7680K, 0% used [0x00000000ff100000,0x00000000ff110000,0x00000000ff880000)
+  to   space 7680K, 0% used [0x00000000ff880000,0x00000000ff880000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6018K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e0b50,0x00000000fdf00000)
+ Metaspace       used 16144K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=10 (full 0):
+ PSYoungGen      total 26112K, used 18496K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 18432K, 100% used [0x00000000fdf00000,0x00000000ff100000,0x00000000ff100000)
+  from space 7680K, 0% used [0x00000000ff100000,0x00000000ff110000,0x00000000ff880000)
+  to   space 7680K, 0% used [0x00000000ff880000,0x00000000ff880000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6018K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e0b50,0x00000000fdf00000)
+ Metaspace       used 16148K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:11.882+0000: 3.508: [GC (Allocation Failure) [PSYoungGen: 18496K->32K(26112K)] 24514K->6050K(94720K), 0.0020193 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=10 (full 0):
+ PSYoungGen      total 26112K, used 32K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 18432K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff100000)
+  from space 7680K, 0% used [0x00000000ff880000,0x00000000ff888000,0x0000000100000000)
+  to   space 7680K, 0% used [0x00000000ff100000,0x00000000ff100000,0x00000000ff880000)
+ ParOldGen       total 68608K, used 6018K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e0b50,0x00000000fdf00000)
+ Metaspace       used 16148K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=11 (full 0):
+ PSYoungGen      total 26112K, used 18464K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 18432K, 100% used [0x00000000fdf00000,0x00000000ff100000,0x00000000ff100000)
+  from space 7680K, 0% used [0x00000000ff880000,0x00000000ff888000,0x0000000100000000)
+  to   space 7680K, 0% used [0x00000000ff100000,0x00000000ff100000,0x00000000ff880000)
+ ParOldGen       total 68608K, used 6018K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e0b50,0x00000000fdf00000)
+ Metaspace       used 16152K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:11.932+0000: 3.558: [GC (Allocation Failure) [PSYoungGen: 18464K->32K(26112K)] 24482K->6058K(94720K), 0.0020196 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=11 (full 0):
+ PSYoungGen      total 26112K, used 32K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 18432K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff100000)
+  from space 7680K, 0% used [0x00000000ff100000,0x00000000ff108000,0x00000000ff880000)
+  to   space 7168K, 0% used [0x00000000ff900000,0x00000000ff900000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6026K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e2b50,0x00000000fdf00000)
+ Metaspace       used 16152K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=12 (full 0):
+ PSYoungGen      total 26112K, used 18464K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 18432K, 100% used [0x00000000fdf00000,0x00000000ff100000,0x00000000ff100000)
+  from space 7680K, 0% used [0x00000000ff100000,0x00000000ff108000,0x00000000ff880000)
+  to   space 7168K, 0% used [0x00000000ff900000,0x00000000ff900000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6026K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e2b50,0x00000000fdf00000)
+ Metaspace       used 16154K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:11.987+0000: 3.613: [GC (Allocation Failure) [PSYoungGen: 18464K->32K(26624K)] 24490K->6066K(95232K), 0.0020175 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=12 (full 0):
+ PSYoungGen      total 26624K, used 32K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 19456K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff200000)
+  from space 7168K, 0% used [0x00000000ff900000,0x00000000ff908000,0x0000000100000000)
+  to   space 7168K, 0% used [0x00000000ff200000,0x00000000ff200000,0x00000000ff900000)
+ ParOldGen       total 68608K, used 6034K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e4b50,0x00000000fdf00000)
+ Metaspace       used 16154K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=13 (full 0):
+ PSYoungGen      total 26624K, used 19488K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 19456K, 100% used [0x00000000fdf00000,0x00000000ff200000,0x00000000ff200000)
+  from space 7168K, 0% used [0x00000000ff900000,0x00000000ff908000,0x0000000100000000)
+  to   space 7168K, 0% used [0x00000000ff200000,0x00000000ff200000,0x00000000ff900000)
+ ParOldGen       total 68608K, used 6034K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e4b50,0x00000000fdf00000)
+ Metaspace       used 16154K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:12.047+0000: 3.673: [GC (Allocation Failure) [PSYoungGen: 19488K->64K(26624K)] 25522K->6098K(95232K), 0.0009862 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=13 (full 0):
+ PSYoungGen      total 26624K, used 64K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 19456K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff200000)
+  from space 7168K, 0% used [0x00000000ff200000,0x00000000ff210000,0x00000000ff900000)
+  to   space 7168K, 0% used [0x00000000ff900000,0x00000000ff900000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6034K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e4b50,0x00000000fdf00000)
+ Metaspace       used 16154K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=14 (full 0):
+ PSYoungGen      total 26624K, used 19520K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 19456K, 100% used [0x00000000fdf00000,0x00000000ff200000,0x00000000ff200000)
+  from space 7168K, 0% used [0x00000000ff200000,0x00000000ff210000,0x00000000ff900000)
+  to   space 7168K, 0% used [0x00000000ff900000,0x00000000ff900000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6034K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e4b50,0x00000000fdf00000)
+ Metaspace       used 16154K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:12.101+0000: 3.727: [GC (Allocation Failure) [PSYoungGen: 19520K->64K(27136K)] 25554K->6098K(95744K), 0.0018028 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=14 (full 0):
+ PSYoungGen      total 27136K, used 64K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 19968K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff280000)
+  from space 7168K, 0% used [0x00000000ff900000,0x00000000ff910000,0x0000000100000000)
+  to   space 6656K, 0% used [0x00000000ff280000,0x00000000ff280000,0x00000000ff900000)
+ ParOldGen       total 68608K, used 6034K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e4b50,0x00000000fdf00000)
+ Metaspace       used 16154K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=15 (full 0):
+ PSYoungGen      total 27136K, used 20032K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 19968K, 100% used [0x00000000fdf00000,0x00000000ff280000,0x00000000ff280000)
+  from space 7168K, 0% used [0x00000000ff900000,0x00000000ff910000,0x0000000100000000)
+  to   space 6656K, 0% used [0x00000000ff280000,0x00000000ff280000,0x00000000ff900000)
+ ParOldGen       total 68608K, used 6034K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e4b50,0x00000000fdf00000)
+ Metaspace       used 16154K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:12.160+0000: 3.786: [GC (Allocation Failure) [PSYoungGen: 20032K->64K(26624K)] 26066K->6106K(95232K), 0.0016806 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=15 (full 0):
+ PSYoungGen      total 26624K, used 64K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 19968K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff280000)
+  from space 6656K, 0% used [0x00000000ff280000,0x00000000ff290000,0x00000000ff900000)
+  to   space 6144K, 0% used [0x00000000ffa00000,0x00000000ffa00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6042K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e6b50,0x00000000fdf00000)
+ Metaspace       used 16154K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=16 (full 0):
+ PSYoungGen      total 26624K, used 20032K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 19968K, 100% used [0x00000000fdf00000,0x00000000ff280000,0x00000000ff280000)
+  from space 6656K, 0% used [0x00000000ff280000,0x00000000ff290000,0x00000000ff900000)
+  to   space 6144K, 0% used [0x00000000ffa00000,0x00000000ffa00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6042K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e6b50,0x00000000fdf00000)
+ Metaspace       used 16156K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:12.225+0000: 3.851: [GC (Allocation Failure) [PSYoungGen: 20032K->32K(27648K)] 26074K->6074K(96256K), 0.0015315 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=16 (full 0):
+ PSYoungGen      total 27648K, used 32K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 21504K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff400000)
+  from space 6144K, 0% used [0x00000000ffa00000,0x00000000ffa08000,0x0000000100000000)
+  to   space 6144K, 0% used [0x00000000ff400000,0x00000000ff400000,0x00000000ffa00000)
+ ParOldGen       total 68608K, used 6042K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e6b50,0x00000000fdf00000)
+ Metaspace       used 16156K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=17 (full 0):
+ PSYoungGen      total 27648K, used 21536K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 21504K, 100% used [0x00000000fdf00000,0x00000000ff400000,0x00000000ff400000)
+  from space 6144K, 0% used [0x00000000ffa00000,0x00000000ffa08000,0x0000000100000000)
+  to   space 6144K, 0% used [0x00000000ff400000,0x00000000ff400000,0x00000000ffa00000)
+ ParOldGen       total 68608K, used 6042K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e6b50,0x00000000fdf00000)
+ Metaspace       used 16157K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:12.280+0000: 3.906: [GC (Allocation Failure) [PSYoungGen: 21536K->32K(27648K)] 27578K->6074K(96256K), 0.0021086 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=17 (full 0):
+ PSYoungGen      total 27648K, used 32K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 21504K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff400000)
+  from space 6144K, 0% used [0x00000000ff400000,0x00000000ff408000,0x00000000ffa00000)
+  to   space 5632K, 0% used [0x00000000ffa80000,0x00000000ffa80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6042K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e6b50,0x00000000fdf00000)
+ Metaspace       used 16157K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=18 (full 0):
+ PSYoungGen      total 27648K, used 21536K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 21504K, 100% used [0x00000000fdf00000,0x00000000ff400000,0x00000000ff400000)
+  from space 6144K, 0% used [0x00000000ff400000,0x00000000ff408000,0x00000000ffa00000)
+  to   space 5632K, 0% used [0x00000000ffa80000,0x00000000ffa80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6042K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e6b50,0x00000000fdf00000)
+ Metaspace       used 16160K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:12.338+0000: 3.964: [GC (Allocation Failure) [PSYoungGen: 21536K->32K(28160K)] 27578K->6074K(96768K), 0.0016157 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=18 (full 0):
+ PSYoungGen      total 28160K, used 32K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 22528K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff500000)
+  from space 5632K, 0% used [0x00000000ffa80000,0x00000000ffa88000,0x0000000100000000)
+  to   space 5632K, 0% used [0x00000000ff500000,0x00000000ff500000,0x00000000ffa80000)
+ ParOldGen       total 68608K, used 6042K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e6b50,0x00000000fdf00000)
+ Metaspace       used 16160K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=19 (full 0):
+ PSYoungGen      total 28160K, used 22560K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 22528K, 100% used [0x00000000fdf00000,0x00000000ff500000,0x00000000ff500000)
+  from space 5632K, 0% used [0x00000000ffa80000,0x00000000ffa88000,0x0000000100000000)
+  to   space 5632K, 0% used [0x00000000ff500000,0x00000000ff500000,0x00000000ffa80000)
+ ParOldGen       total 68608K, used 6042K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e6b50,0x00000000fdf00000)
+ Metaspace       used 16162K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:12.398+0000: 4.024: [GC (Allocation Failure) [PSYoungGen: 22560K->32K(28160K)] 28602K->6074K(96768K), 0.0014973 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=19 (full 0):
+ PSYoungGen      total 28160K, used 32K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 22528K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff500000)
+  from space 5632K, 0% used [0x00000000ff500000,0x00000000ff508000,0x00000000ffa80000)
+  to   space 5120K, 0% used [0x00000000ffb00000,0x00000000ffb00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6042K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e6b50,0x00000000fdf00000)
+ Metaspace       used 16162K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=20 (full 0):
+ PSYoungGen      total 28160K, used 22560K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 22528K, 100% used [0x00000000fdf00000,0x00000000ff500000,0x00000000ff500000)
+  from space 5632K, 0% used [0x00000000ff500000,0x00000000ff508000,0x00000000ffa80000)
+  to   space 5120K, 0% used [0x00000000ffb00000,0x00000000ffb00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6042K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e6b50,0x00000000fdf00000)
+ Metaspace       used 16162K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:12.458+0000: 4.084: [GC (Allocation Failure) [PSYoungGen: 22560K->32K(28672K)] 28602K->6082K(97280K), 0.0023076 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=20 (full 0):
+ PSYoungGen      total 28672K, used 32K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 23552K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff600000)
+  from space 5120K, 0% used [0x00000000ffb00000,0x00000000ffb08000,0x0000000100000000)
+  to   space 5120K, 0% used [0x00000000ff600000,0x00000000ff600000,0x00000000ffb00000)
+ ParOldGen       total 68608K, used 6050K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e8b50,0x00000000fdf00000)
+ Metaspace       used 16162K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=21 (full 0):
+ PSYoungGen      total 28672K, used 23584K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 23552K, 100% used [0x00000000fdf00000,0x00000000ff600000,0x00000000ff600000)
+  from space 5120K, 0% used [0x00000000ffb00000,0x00000000ffb08000,0x0000000100000000)
+  to   space 5120K, 0% used [0x00000000ff600000,0x00000000ff600000,0x00000000ffb00000)
+ ParOldGen       total 68608K, used 6050K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1e8b50,0x00000000fdf00000)
+ Metaspace       used 16163K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:12.545+0000: 4.171: [GC (Allocation Failure) [PSYoungGen: 23584K->32K(28672K)] 29634K->6090K(97280K), 0.0011682 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=21 (full 0):
+ PSYoungGen      total 28672K, used 32K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 23552K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff600000)
+  from space 5120K, 0% used [0x00000000ff600000,0x00000000ff608000,0x00000000ffb00000)
+  to   space 4608K, 0% used [0x00000000ffb80000,0x00000000ffb80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6058K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1eab50,0x00000000fdf00000)
+ Metaspace       used 16163K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=22 (full 0):
+ PSYoungGen      total 28672K, used 23584K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 23552K, 100% used [0x00000000fdf00000,0x00000000ff600000,0x00000000ff600000)
+  from space 5120K, 0% used [0x00000000ff600000,0x00000000ff608000,0x00000000ffb00000)
+  to   space 4608K, 0% used [0x00000000ffb80000,0x00000000ffb80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6058K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1eab50,0x00000000fdf00000)
+ Metaspace       used 16165K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:12.635+0000: 4.261: [GC (Allocation Failure) [PSYoungGen: 23584K->32K(29184K)] 29642K->6098K(97792K), 0.0018022 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=22 (full 0):
+ PSYoungGen      total 29184K, used 32K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 24576K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff700000)
+  from space 4608K, 0% used [0x00000000ffb80000,0x00000000ffb88000,0x0000000100000000)
+  to   space 4608K, 0% used [0x00000000ff700000,0x00000000ff700000,0x00000000ffb80000)
+ ParOldGen       total 68608K, used 6066K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1ecb50,0x00000000fdf00000)
+ Metaspace       used 16165K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=23 (full 0):
+ PSYoungGen      total 29184K, used 24608K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 24576K, 100% used [0x00000000fdf00000,0x00000000ff700000,0x00000000ff700000)
+  from space 4608K, 0% used [0x00000000ffb80000,0x00000000ffb88000,0x0000000100000000)
+  to   space 4608K, 0% used [0x00000000ff700000,0x00000000ff700000,0x00000000ffb80000)
+ ParOldGen       total 68608K, used 6066K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1ecb50,0x00000000fdf00000)
+ Metaspace       used 16167K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:12.733+0000: 4.359: [GC (Allocation Failure) [PSYoungGen: 24608K->64K(29184K)] 30674K->6138K(97792K), 0.0010612 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=23 (full 0):
+ PSYoungGen      total 29184K, used 64K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 24576K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff700000)
+  from space 4608K, 1% used [0x00000000ff700000,0x00000000ff710000,0x00000000ffb80000)
+  to   space 4096K, 0% used [0x00000000ffc00000,0x00000000ffc00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6074K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1eeb50,0x00000000fdf00000)
+ Metaspace       used 16167K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=24 (full 0):
+ PSYoungGen      total 29184K, used 24640K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 24576K, 100% used [0x00000000fdf00000,0x00000000ff700000,0x00000000ff700000)
+  from space 4608K, 1% used [0x00000000ff700000,0x00000000ff710000,0x00000000ffb80000)
+  to   space 4096K, 0% used [0x00000000ffc00000,0x00000000ffc00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6074K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1eeb50,0x00000000fdf00000)
+ Metaspace       used 16169K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:12.827+0000: 4.453: [GC (Allocation Failure) [PSYoungGen: 24640K->32K(29696K)] 30714K->6114K(98304K), 0.0038449 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=24 (full 0):
+ PSYoungGen      total 29696K, used 32K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 25600K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff800000)
+  from space 4096K, 0% used [0x00000000ffc00000,0x00000000ffc08000,0x0000000100000000)
+  to   space 4096K, 0% used [0x00000000ff800000,0x00000000ff800000,0x00000000ffc00000)
+ ParOldGen       total 68608K, used 6082K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1f0b50,0x00000000fdf00000)
+ Metaspace       used 16169K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=25 (full 0):
+ PSYoungGen      total 29696K, used 25632K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 25600K, 100% used [0x00000000fdf00000,0x00000000ff800000,0x00000000ff800000)
+  from space 4096K, 0% used [0x00000000ffc00000,0x00000000ffc08000,0x0000000100000000)
+  to   space 4096K, 0% used [0x00000000ff800000,0x00000000ff800000,0x00000000ffc00000)
+ ParOldGen       total 68608K, used 6082K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1f0b50,0x00000000fdf00000)
+ Metaspace       used 16169K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:12.934+0000: 4.560: [GC (Allocation Failure) [PSYoungGen: 25632K->64K(29696K)] 31714K->6154K(98304K), 0.0016518 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=25 (full 0):
+ PSYoungGen      total 29696K, used 64K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 25600K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff800000)
+  from space 4096K, 1% used [0x00000000ff800000,0x00000000ff810000,0x00000000ffc00000)
+  to   space 3584K, 0% used [0x00000000ffc80000,0x00000000ffc80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6090K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1f2b50,0x00000000fdf00000)
+ Metaspace       used 16169K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=26 (full 0):
+ PSYoungGen      total 29696K, used 25664K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 25600K, 100% used [0x00000000fdf00000,0x00000000ff800000,0x00000000ff800000)
+  from space 4096K, 1% used [0x00000000ff800000,0x00000000ff810000,0x00000000ffc00000)
+  to   space 3584K, 0% used [0x00000000ffc80000,0x00000000ffc80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6090K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1f2b50,0x00000000fdf00000)
+ Metaspace       used 16169K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:12.998+0000: 4.624: [GC (Allocation Failure) [PSYoungGen: 25664K->32K(30208K)] 31754K->6122K(98816K), 0.0018131 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=26 (full 0):
+ PSYoungGen      total 30208K, used 32K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 26624K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff900000)
+  from space 3584K, 0% used [0x00000000ffc80000,0x00000000ffc88000,0x0000000100000000)
+  to   space 3584K, 0% used [0x00000000ff900000,0x00000000ff900000,0x00000000ffc80000)
+ ParOldGen       total 68608K, used 6090K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1f2b50,0x00000000fdf00000)
+ Metaspace       used 16169K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=27 (full 0):
+ PSYoungGen      total 30208K, used 26656K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 26624K, 100% used [0x00000000fdf00000,0x00000000ff900000,0x00000000ff900000)
+  from space 3584K, 0% used [0x00000000ffc80000,0x00000000ffc88000,0x0000000100000000)
+  to   space 3584K, 0% used [0x00000000ff900000,0x00000000ff900000,0x00000000ffc80000)
+ ParOldGen       total 68608K, used 6090K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1f2b50,0x00000000fdf00000)
+ Metaspace       used 16169K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:13.094+0000: 4.720: [GC (Allocation Failure) [PSYoungGen: 26656K->64K(30208K)] 32746K->6154K(98816K), 0.0013622 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=27 (full 0):
+ PSYoungGen      total 30208K, used 64K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 26624K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ff900000)
+  from space 3584K, 1% used [0x00000000ff900000,0x00000000ff910000,0x00000000ffc80000)
+  to   space 3072K, 0% used [0x00000000ffd00000,0x00000000ffd00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6090K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1f2b50,0x00000000fdf00000)
+ Metaspace       used 16169K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=28 (full 0):
+ PSYoungGen      total 30208K, used 26688K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 26624K, 100% used [0x00000000fdf00000,0x00000000ff900000,0x00000000ff900000)
+  from space 3584K, 1% used [0x00000000ff900000,0x00000000ff910000,0x00000000ffc80000)
+  to   space 3072K, 0% used [0x00000000ffd00000,0x00000000ffd00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6090K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1f2b50,0x00000000fdf00000)
+ Metaspace       used 16172K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:13.161+0000: 4.787: [GC (Allocation Failure) [PSYoungGen: 26688K->64K(30720K)] 32778K->6162K(99328K), 0.0021762 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=28 (full 0):
+ PSYoungGen      total 30720K, used 64K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 27648K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffa00000)
+  from space 3072K, 2% used [0x00000000ffd00000,0x00000000ffd10000,0x0000000100000000)
+  to   space 3072K, 0% used [0x00000000ffa00000,0x00000000ffa00000,0x00000000ffd00000)
+ ParOldGen       total 68608K, used 6098K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1f4b50,0x00000000fdf00000)
+ Metaspace       used 16172K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=29 (full 0):
+ PSYoungGen      total 30720K, used 27712K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 27648K, 100% used [0x00000000fdf00000,0x00000000ffa00000,0x00000000ffa00000)
+  from space 3072K, 2% used [0x00000000ffd00000,0x00000000ffd10000,0x0000000100000000)
+  to   space 3072K, 0% used [0x00000000ffa00000,0x00000000ffa00000,0x00000000ffd00000)
+ ParOldGen       total 68608K, used 6098K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1f4b50,0x00000000fdf00000)
+ Metaspace       used 16172K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:13.231+0000: 4.857: [GC (Allocation Failure) [PSYoungGen: 27712K->64K(30720K)] 33810K->6162K(99328K), 0.0042629 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=29 (full 0):
+ PSYoungGen      total 30720K, used 64K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 27648K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffa00000)
+  from space 3072K, 2% used [0x00000000ffa00000,0x00000000ffa10000,0x00000000ffd00000)
+  to   space 3072K, 0% used [0x00000000ffd00000,0x00000000ffd00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6098K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1f4b50,0x00000000fdf00000)
+ Metaspace       used 16172K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=30 (full 0):
+ PSYoungGen      total 30720K, used 27712K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 27648K, 100% used [0x00000000fdf00000,0x00000000ffa00000,0x00000000ffa00000)
+  from space 3072K, 2% used [0x00000000ffa00000,0x00000000ffa10000,0x00000000ffd00000)
+  to   space 3072K, 0% used [0x00000000ffd00000,0x00000000ffd00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 6098K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1f4b50,0x00000000fdf00000)
+ Metaspace       used 16174K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:13.301+0000: 4.927: [GC (Allocation Failure) [PSYoungGen: 27712K->64K(31232K)] 33810K->6170K(99840K), 0.0015123 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=30 (full 0):
+ PSYoungGen      total 31232K, used 64K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 28160K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffa80000)
+  from space 3072K, 2% used [0x00000000ffd00000,0x00000000ffd10000,0x0000000100000000)
+  to   space 2560K, 0% used [0x00000000ffa80000,0x00000000ffa80000,0x00000000ffd00000)
+ ParOldGen       total 68608K, used 6106K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1f6b50,0x00000000fdf00000)
+ Metaspace       used 16174K, capacity 16536K, committed 16896K, reserved 1064960K
+  class space    used 2099K, capacity 2191K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=31 (full 0):
+ PSYoungGen      total 31232K, used 27294K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 28160K, 96% used [0x00000000fdf00000,0x00000000ff9979d0,0x00000000ffa80000)
+  from space 3072K, 2% used [0x00000000ffd00000,0x00000000ffd10000,0x0000000100000000)
+  to   space 2560K, 0% used [0x00000000ffa80000,0x00000000ffa80000,0x00000000ffd00000)
+ ParOldGen       total 68608K, used 6106K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 8% used [0x00000000f9c00000,0x00000000fa1f6b50,0x00000000fdf00000)
+ Metaspace       used 16713K, capacity 17086K, committed 17408K, reserved 1064960K
+  class space    used 2146K, capacity 2224K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:14.371+0000: 5.997: [GC (Allocation Failure) [PSYoungGen: 27294K->2400K(30720K)] 33401K->10554K(99328K), 0.0036636 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=31 (full 0):
+ PSYoungGen      total 30720K, used 2400K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 28160K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffa80000)
+  from space 2560K, 93% used [0x00000000ffa80000,0x00000000ffcd8020,0x00000000ffd00000)
+  to   space 3072K, 0% used [0x00000000ffd00000,0x00000000ffd00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 8154K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 11% used [0x00000000f9c00000,0x00000000fa3f6b70,0x00000000fdf00000)
+ Metaspace       used 16713K, capacity 17086K, committed 17408K, reserved 1064960K
+  class space    used 2146K, capacity 2224K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=32 (full 0):
+ PSYoungGen      total 30720K, used 30560K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 28160K, 100% used [0x00000000fdf00000,0x00000000ffa80000,0x00000000ffa80000)
+  from space 2560K, 93% used [0x00000000ffa80000,0x00000000ffcd8020,0x00000000ffd00000)
+  to   space 3072K, 0% used [0x00000000ffd00000,0x00000000ffd00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 8154K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 11% used [0x00000000f9c00000,0x00000000fa3f6b70,0x00000000fdf00000)
+ Metaspace       used 16730K, capacity 17086K, committed 17408K, reserved 1064960K
+  class space    used 2146K, capacity 2224K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:14.604+0000: 6.230: [GC (Allocation Failure) [PSYoungGen: 30560K->1088K(30720K)] 38714K->11571K(99328K), 0.0032894 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=32 (full 0):
+ PSYoungGen      total 30720K, used 1088K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 27648K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffa00000)
+  from space 3072K, 35% used [0x00000000ffd00000,0x00000000ffe10010,0x0000000100000000)
+  to   space 3072K, 0% used [0x00000000ffa00000,0x00000000ffa00000,0x00000000ffd00000)
+ ParOldGen       total 68608K, used 10483K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 15% used [0x00000000f9c00000,0x00000000fa63cf60,0x00000000fdf00000)
+ Metaspace       used 16730K, capacity 17086K, committed 17408K, reserved 1064960K
+  class space    used 2146K, capacity 2224K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=33 (full 0):
+ PSYoungGen      total 30720K, used 28736K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 27648K, 100% used [0x00000000fdf00000,0x00000000ffa00000,0x00000000ffa00000)
+  from space 3072K, 35% used [0x00000000ffd00000,0x00000000ffe10010,0x0000000100000000)
+  to   space 3072K, 0% used [0x00000000ffa00000,0x00000000ffa00000,0x00000000ffd00000)
+ ParOldGen       total 68608K, used 10483K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 15% used [0x00000000f9c00000,0x00000000fa63cf60,0x00000000fdf00000)
+ Metaspace       used 16733K, capacity 17086K, committed 17408K, reserved 1064960K
+  class space    used 2146K, capacity 2224K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:14.762+0000: 6.388: [GC (Allocation Failure) [PSYoungGen: 28736K->32K(30720K)] 39219K->11559K(99328K), 0.0025768 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=33 (full 0):
+ PSYoungGen      total 30720K, used 32K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 27648K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffa00000)
+  from space 3072K, 1% used [0x00000000ffa00000,0x00000000ffa08000,0x00000000ffd00000)
+  to   space 3072K, 0% used [0x00000000ffd00000,0x00000000ffd00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11527K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 16% used [0x00000000f9c00000,0x00000000fa741f88,0x00000000fdf00000)
+ Metaspace       used 16733K, capacity 17086K, committed 17408K, reserved 1064960K
+  class space    used 2146K, capacity 2224K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=34 (full 0):
+ PSYoungGen      total 30720K, used 27680K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 27648K, 100% used [0x00000000fdf00000,0x00000000ffa00000,0x00000000ffa00000)
+  from space 3072K, 1% used [0x00000000ffa00000,0x00000000ffa08000,0x00000000ffd00000)
+  to   space 3072K, 0% used [0x00000000ffd00000,0x00000000ffd00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11527K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 16% used [0x00000000f9c00000,0x00000000fa741f88,0x00000000fdf00000)
+ Metaspace       used 16747K, capacity 17104K, committed 17408K, reserved 1064960K
+  class space    used 2147K, capacity 2227K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:14.911+0000: 6.537: [GC (Allocation Failure) [PSYoungGen: 27680K->64K(30720K)] 39207K->11599K(99328K), 0.0018295 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=34 (full 0):
+ PSYoungGen      total 30720K, used 64K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 27648K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffa00000)
+  from space 3072K, 2% used [0x00000000ffd00000,0x00000000ffd10000,0x0000000100000000)
+  to   space 3072K, 0% used [0x00000000ffa00000,0x00000000ffa00000,0x00000000ffd00000)
+ ParOldGen       total 68608K, used 11535K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 16% used [0x00000000f9c00000,0x00000000fa743f88,0x00000000fdf00000)
+ Metaspace       used 16747K, capacity 17104K, committed 17408K, reserved 1064960K
+  class space    used 2147K, capacity 2227K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=35 (full 0):
+ PSYoungGen      total 30720K, used 27712K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 27648K, 100% used [0x00000000fdf00000,0x00000000ffa00000,0x00000000ffa00000)
+  from space 3072K, 2% used [0x00000000ffd00000,0x00000000ffd10000,0x0000000100000000)
+  to   space 3072K, 0% used [0x00000000ffa00000,0x00000000ffa00000,0x00000000ffd00000)
+ ParOldGen       total 68608K, used 11535K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 16% used [0x00000000f9c00000,0x00000000fa743f88,0x00000000fdf00000)
+ Metaspace       used 16751K, capacity 17104K, committed 17408K, reserved 1064960K
+  class space    used 2147K, capacity 2227K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:15.067+0000: 6.693: [GC (Allocation Failure) [PSYoungGen: 27712K->64K(30720K)] 39247K->11619K(99328K), 0.0019745 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=35 (full 0):
+ PSYoungGen      total 30720K, used 64K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 27648K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffa00000)
+  from space 3072K, 2% used [0x00000000ffa00000,0x00000000ffa10000,0x00000000ffd00000)
+  to   space 2560K, 0% used [0x00000000ffd80000,0x00000000ffd80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11555K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 16% used [0x00000000f9c00000,0x00000000fa748f98,0x00000000fdf00000)
+ Metaspace       used 16751K, capacity 17104K, committed 17408K, reserved 1064960K
+  class space    used 2147K, capacity 2227K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=36 (full 0):
+ PSYoungGen      total 30720K, used 27712K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 27648K, 100% used [0x00000000fdf00000,0x00000000ffa00000,0x00000000ffa00000)
+  from space 3072K, 2% used [0x00000000ffa00000,0x00000000ffa10000,0x00000000ffd00000)
+  to   space 2560K, 0% used [0x00000000ffd80000,0x00000000ffd80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11555K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 16% used [0x00000000f9c00000,0x00000000fa748f98,0x00000000fdf00000)
+ Metaspace       used 16763K, capacity 17104K, committed 17408K, reserved 1064960K
+  class space    used 2147K, capacity 2227K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:15.241+0000: 6.867: [GC (Allocation Failure) [PSYoungGen: 27712K->64K(31232K)] 39267K->11631K(99840K), 0.0019780 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=36 (full 0):
+ PSYoungGen      total 31232K, used 64K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 28672K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffb00000)
+  from space 2560K, 2% used [0x00000000ffd80000,0x00000000ffd90000,0x0000000100000000)
+  to   space 2560K, 0% used [0x00000000ffb00000,0x00000000ffb00000,0x00000000ffd80000)
+ ParOldGen       total 68608K, used 11567K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 16% used [0x00000000f9c00000,0x00000000fa74bfb0,0x00000000fdf00000)
+ Metaspace       used 16763K, capacity 17104K, committed 17408K, reserved 1064960K
+  class space    used 2147K, capacity 2227K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=37 (full 0):
+ PSYoungGen      total 31232K, used 28736K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 28672K, 100% used [0x00000000fdf00000,0x00000000ffb00000,0x00000000ffb00000)
+  from space 2560K, 2% used [0x00000000ffd80000,0x00000000ffd90000,0x0000000100000000)
+  to   space 2560K, 0% used [0x00000000ffb00000,0x00000000ffb00000,0x00000000ffd80000)
+ ParOldGen       total 68608K, used 11567K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 16% used [0x00000000f9c00000,0x00000000fa74bfb0,0x00000000fdf00000)
+ Metaspace       used 16766K, capacity 17104K, committed 17408K, reserved 1064960K
+  class space    used 2147K, capacity 2227K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:15.510+0000: 7.136: [GC (Allocation Failure) [PSYoungGen: 28736K->96K(31232K)] 40303K->11691K(99840K), 0.0016187 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=37 (full 0):
+ PSYoungGen      total 31232K, used 96K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 28672K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffb00000)
+  from space 2560K, 3% used [0x00000000ffb00000,0x00000000ffb18000,0x00000000ffd80000)
+  to   space 2560K, 0% used [0x00000000ffd80000,0x00000000ffd80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11595K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 16% used [0x00000000f9c00000,0x00000000fa752fc8,0x00000000fdf00000)
+ Metaspace       used 16766K, capacity 17104K, committed 17408K, reserved 1064960K
+  class space    used 2147K, capacity 2227K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=38 (full 0):
+ PSYoungGen      total 31232K, used 28768K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 28672K, 100% used [0x00000000fdf00000,0x00000000ffb00000,0x00000000ffb00000)
+  from space 2560K, 3% used [0x00000000ffb00000,0x00000000ffb18000,0x00000000ffd80000)
+  to   space 2560K, 0% used [0x00000000ffd80000,0x00000000ffd80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11595K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 16% used [0x00000000f9c00000,0x00000000fa752fc8,0x00000000fdf00000)
+ Metaspace       used 16767K, capacity 17104K, committed 17408K, reserved 1064960K
+  class space    used 2147K, capacity 2227K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:15.764+0000: 7.390: [GC (Allocation Failure) [PSYoungGen: 28768K->128K(31232K)] 40363K->11747K(99840K), 0.0011109 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=38 (full 0):
+ PSYoungGen      total 31232K, used 128K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 28672K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffb00000)
+  from space 2560K, 5% used [0x00000000ffd80000,0x00000000ffda0000,0x0000000100000000)
+  to   space 2560K, 0% used [0x00000000ffb00000,0x00000000ffb00000,0x00000000ffd80000)
+ ParOldGen       total 68608K, used 11619K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 16% used [0x00000000f9c00000,0x00000000fa758fc8,0x00000000fdf00000)
+ Metaspace       used 16767K, capacity 17104K, committed 17408K, reserved 1064960K
+  class space    used 2147K, capacity 2227K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=39 (full 0):
+ PSYoungGen      total 31232K, used 28800K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 28672K, 100% used [0x00000000fdf00000,0x00000000ffb00000,0x00000000ffb00000)
+  from space 2560K, 5% used [0x00000000ffd80000,0x00000000ffda0000,0x0000000100000000)
+  to   space 2560K, 0% used [0x00000000ffb00000,0x00000000ffb00000,0x00000000ffd80000)
+ ParOldGen       total 68608K, used 11619K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 16% used [0x00000000f9c00000,0x00000000fa758fc8,0x00000000fdf00000)
+ Metaspace       used 16767K, capacity 17104K, committed 17408K, reserved 1064960K
+  class space    used 2147K, capacity 2227K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:15.954+0000: 7.580: [GC (Allocation Failure) [PSYoungGen: 28800K->64K(31232K)] 40419K->11695K(99840K), 0.0016609 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+Heap after GC invocations=39 (full 0):
+ PSYoungGen      total 31232K, used 64K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 28672K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffb00000)
+  from space 2560K, 2% used [0x00000000ffb00000,0x00000000ffb10000,0x00000000ffd80000)
+  to   space 2048K, 0% used [0x00000000ffe00000,0x00000000ffe00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11631K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 16% used [0x00000000f9c00000,0x00000000fa75bfe0,0x00000000fdf00000)
+ Metaspace       used 16767K, capacity 17104K, committed 17408K, reserved 1064960K
+  class space    used 2147K, capacity 2227K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=40 (full 0):
+ PSYoungGen      total 31232K, used 28736K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 28672K, 100% used [0x00000000fdf00000,0x00000000ffb00000,0x00000000ffb00000)
+  from space 2560K, 2% used [0x00000000ffb00000,0x00000000ffb10000,0x00000000ffd80000)
+  to   space 2048K, 0% used [0x00000000ffe00000,0x00000000ffe00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11631K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 16% used [0x00000000f9c00000,0x00000000fa75bfe0,0x00000000fdf00000)
+ Metaspace       used 16772K, capacity 17104K, committed 17408K, reserved 1064960K
+  class space    used 2147K, capacity 2227K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:16.146+0000: 7.772: [GC (Allocation Failure) [PSYoungGen: 28736K->64K(31744K)] 40367K->11707K(100352K), 0.0013054 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=40 (full 0):
+ PSYoungGen      total 31744K, used 64K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 29696K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffc00000)
+  from space 2048K, 3% used [0x00000000ffe00000,0x00000000ffe10000,0x0000000100000000)
+  to   space 2048K, 0% used [0x00000000ffc00000,0x00000000ffc00000,0x00000000ffe00000)
+ ParOldGen       total 68608K, used 11643K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 16% used [0x00000000f9c00000,0x00000000fa75eff8,0x00000000fdf00000)
+ Metaspace       used 16772K, capacity 17104K, committed 17408K, reserved 1064960K
+  class space    used 2147K, capacity 2227K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=41 (full 0):
+ PSYoungGen      total 31744K, used 29760K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 29696K, 100% used [0x00000000fdf00000,0x00000000ffc00000,0x00000000ffc00000)
+  from space 2048K, 3% used [0x00000000ffe00000,0x00000000ffe10000,0x0000000100000000)
+  to   space 2048K, 0% used [0x00000000ffc00000,0x00000000ffc00000,0x00000000ffe00000)
+ ParOldGen       total 68608K, used 11643K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 16% used [0x00000000f9c00000,0x00000000fa75eff8,0x00000000fdf00000)
+ Metaspace       used 16772K, capacity 17104K, committed 17408K, reserved 1064960K
+  class space    used 2147K, capacity 2227K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:16.294+0000: 7.920: [GC (Allocation Failure) [PSYoungGen: 29760K->128K(31744K)] 41403K->11795K(100352K), 0.0016546 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=41 (full 0):
+ PSYoungGen      total 31744K, used 128K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 29696K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffc00000)
+  from space 2048K, 6% used [0x00000000ffc00000,0x00000000ffc20000,0x00000000ffe00000)
+  to   space 2048K, 0% used [0x00000000ffe00000,0x00000000ffe00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11667K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa764ff8,0x00000000fdf00000)
+ Metaspace       used 16772K, capacity 17104K, committed 17408K, reserved 1064960K
+  class space    used 2147K, capacity 2227K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=42 (full 0):
+ PSYoungGen      total 31744K, used 29824K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 29696K, 100% used [0x00000000fdf00000,0x00000000ffc00000,0x00000000ffc00000)
+  from space 2048K, 6% used [0x00000000ffc00000,0x00000000ffc20000,0x00000000ffe00000)
+  to   space 2048K, 0% used [0x00000000ffe00000,0x00000000ffe00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11667K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa764ff8,0x00000000fdf00000)
+ Metaspace       used 16786K, capacity 17122K, committed 17408K, reserved 1064960K
+  class space    used 2149K, capacity 2230K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:16.422+0000: 8.048: [GC (Allocation Failure) [PSYoungGen: 29824K->96K(31744K)] 41491K->11784K(100352K), 0.0017229 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=42 (full 0):
+ PSYoungGen      total 31744K, used 96K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 29696K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffc00000)
+  from space 2048K, 4% used [0x00000000ffe00000,0x00000000ffe18000,0x0000000100000000)
+  to   space 2048K, 0% used [0x00000000ffc00000,0x00000000ffc00000,0x00000000ffe00000)
+ ParOldGen       total 68608K, used 11688K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa76a010,0x00000000fdf00000)
+ Metaspace       used 16786K, capacity 17122K, committed 17408K, reserved 1064960K
+  class space    used 2149K, capacity 2230K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=43 (full 0):
+ PSYoungGen      total 31744K, used 29792K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 29696K, 100% used [0x00000000fdf00000,0x00000000ffc00000,0x00000000ffc00000)
+  from space 2048K, 4% used [0x00000000ffe00000,0x00000000ffe18000,0x0000000100000000)
+  to   space 2048K, 0% used [0x00000000ffc00000,0x00000000ffc00000,0x00000000ffe00000)
+ ParOldGen       total 68608K, used 11688K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa76a010,0x00000000fdf00000)
+ Metaspace       used 16786K, capacity 17122K, committed 17408K, reserved 1064960K
+  class space    used 2149K, capacity 2230K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:16.549+0000: 8.175: [GC (Allocation Failure) [PSYoungGen: 29792K->32K(31744K)] 41480K->11748K(100352K), 0.0012765 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=43 (full 0):
+ PSYoungGen      total 31744K, used 32K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 29696K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffc00000)
+  from space 2048K, 1% used [0x00000000ffc00000,0x00000000ffc08000,0x00000000ffe00000)
+  to   space 1536K, 0% used [0x00000000ffe80000,0x00000000ffe80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11716K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa771028,0x00000000fdf00000)
+ Metaspace       used 16786K, capacity 17122K, committed 17408K, reserved 1064960K
+  class space    used 2149K, capacity 2230K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=44 (full 0):
+ PSYoungGen      total 31744K, used 29728K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 29696K, 100% used [0x00000000fdf00000,0x00000000ffc00000,0x00000000ffc00000)
+  from space 2048K, 1% used [0x00000000ffc00000,0x00000000ffc08000,0x00000000ffe00000)
+  to   space 1536K, 0% used [0x00000000ffe80000,0x00000000ffe80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11716K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa771028,0x00000000fdf00000)
+ Metaspace       used 16794K, capacity 17186K, committed 17408K, reserved 1064960K
+  class space    used 2149K, capacity 2230K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:16.675+0000: 8.301: [GC (Allocation Failure) [PSYoungGen: 29728K->96K(32256K)] 41444K->11820K(100864K), 0.0016014 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=44 (full 0):
+ PSYoungGen      total 32256K, used 96K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 30720K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffd00000)
+  from space 1536K, 6% used [0x00000000ffe80000,0x00000000ffe98000,0x0000000100000000)
+  to   space 1536K, 0% used [0x00000000ffd00000,0x00000000ffd00000,0x00000000ffe80000)
+ ParOldGen       total 68608K, used 11724K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa773028,0x00000000fdf00000)
+ Metaspace       used 16794K, capacity 17186K, committed 17408K, reserved 1064960K
+  class space    used 2149K, capacity 2230K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=45 (full 0):
+ PSYoungGen      total 32256K, used 30816K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 30720K, 100% used [0x00000000fdf00000,0x00000000ffd00000,0x00000000ffd00000)
+  from space 1536K, 6% used [0x00000000ffe80000,0x00000000ffe98000,0x0000000100000000)
+  to   space 1536K, 0% used [0x00000000ffd00000,0x00000000ffd00000,0x00000000ffe80000)
+ ParOldGen       total 68608K, used 11724K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa773028,0x00000000fdf00000)
+ Metaspace       used 16795K, capacity 17186K, committed 17408K, reserved 1064960K
+  class space    used 2149K, capacity 2230K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:16.807+0000: 8.433: [GC (Allocation Failure) [PSYoungGen: 30816K->96K(32256K)] 42540K->11844K(100864K), 0.0020258 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=45 (full 0):
+ PSYoungGen      total 32256K, used 96K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 30720K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffd00000)
+  from space 1536K, 6% used [0x00000000ffd00000,0x00000000ffd18000,0x00000000ffe80000)
+  to   space 1536K, 0% used [0x00000000ffe80000,0x00000000ffe80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11748K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa779028,0x00000000fdf00000)
+ Metaspace       used 16795K, capacity 17186K, committed 17408K, reserved 1064960K
+  class space    used 2149K, capacity 2230K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=46 (full 0):
+ PSYoungGen      total 32256K, used 30816K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 30720K, 100% used [0x00000000fdf00000,0x00000000ffd00000,0x00000000ffd00000)
+  from space 1536K, 6% used [0x00000000ffd00000,0x00000000ffd18000,0x00000000ffe80000)
+  to   space 1536K, 0% used [0x00000000ffe80000,0x00000000ffe80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11748K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa779028,0x00000000fdf00000)
+ Metaspace       used 16795K, capacity 17186K, committed 17408K, reserved 1064960K
+  class space    used 2149K, capacity 2230K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:16.941+0000: 8.567: [GC (Allocation Failure) [PSYoungGen: 30816K->32K(32256K)] 42564K->11800K(100864K), 0.0015224 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=46 (full 0):
+ PSYoungGen      total 32256K, used 32K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 30720K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffd00000)
+  from space 1536K, 2% used [0x00000000ffe80000,0x00000000ffe88000,0x0000000100000000)
+  to   space 1536K, 0% used [0x00000000ffd00000,0x00000000ffd00000,0x00000000ffe80000)
+ ParOldGen       total 68608K, used 11768K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa77e040,0x00000000fdf00000)
+ Metaspace       used 16795K, capacity 17186K, committed 17408K, reserved 1064960K
+  class space    used 2149K, capacity 2230K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=47 (full 0):
+ PSYoungGen      total 32256K, used 30752K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 30720K, 100% used [0x00000000fdf00000,0x00000000ffd00000,0x00000000ffd00000)
+  from space 1536K, 2% used [0x00000000ffe80000,0x00000000ffe88000,0x0000000100000000)
+  to   space 1536K, 0% used [0x00000000ffd00000,0x00000000ffd00000,0x00000000ffe80000)
+ ParOldGen       total 68608K, used 11768K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa77e040,0x00000000fdf00000)
+ Metaspace       used 16795K, capacity 17186K, committed 17408K, reserved 1064960K
+  class space    used 2149K, capacity 2230K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:17.069+0000: 8.695: [GC (Allocation Failure) [PSYoungGen: 30752K->128K(32256K)] 42520K->11904K(100864K), 0.0010700 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=47 (full 0):
+ PSYoungGen      total 32256K, used 128K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 30720K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffd00000)
+  from space 1536K, 8% used [0x00000000ffd00000,0x00000000ffd20000,0x00000000ffe80000)
+  to   space 1536K, 0% used [0x00000000ffe80000,0x00000000ffe80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11776K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa780040,0x00000000fdf00000)
+ Metaspace       used 16795K, capacity 17186K, committed 17408K, reserved 1064960K
+  class space    used 2149K, capacity 2230K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=48 (full 0):
+ PSYoungGen      total 32256K, used 30848K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 30720K, 100% used [0x00000000fdf00000,0x00000000ffd00000,0x00000000ffd00000)
+  from space 1536K, 8% used [0x00000000ffd00000,0x00000000ffd20000,0x00000000ffe80000)
+  to   space 1536K, 0% used [0x00000000ffe80000,0x00000000ffe80000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11776K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa780040,0x00000000fdf00000)
+ Metaspace       used 16796K, capacity 17186K, committed 17408K, reserved 1064960K
+  class space    used 2149K, capacity 2230K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:17.200+0000: 8.826: [GC (Allocation Failure) [PSYoungGen: 30848K->64K(32256K)] 42624K->11852K(100864K), 0.0018813 secs] [Times: user=0.01 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=48 (full 0):
+ PSYoungGen      total 32256K, used 64K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 30720K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffd00000)
+  from space 1536K, 4% used [0x00000000ffe80000,0x00000000ffe90000,0x0000000100000000)
+  to   space 1536K, 0% used [0x00000000ffd00000,0x00000000ffd00000,0x00000000ffe80000)
+ ParOldGen       total 68608K, used 11788K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa783058,0x00000000fdf00000)
+ Metaspace       used 16796K, capacity 17186K, committed 17408K, reserved 1064960K
+  class space    used 2149K, capacity 2230K, committed 2304K, reserved 1048576K
+}
+{Heap before GC invocations=49 (full 0):
+ PSYoungGen      total 32256K, used 30784K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 30720K, 100% used [0x00000000fdf00000,0x00000000ffd00000,0x00000000ffd00000)
+  from space 1536K, 4% used [0x00000000ffe80000,0x00000000ffe90000,0x0000000100000000)
+  to   space 1536K, 0% used [0x00000000ffd00000,0x00000000ffd00000,0x00000000ffe80000)
+ ParOldGen       total 68608K, used 11788K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa783058,0x00000000fdf00000)
+ Metaspace       used 16802K, capacity 17250K, committed 17664K, reserved 1064960K
+  class space    used 2149K, capacity 2230K, committed 2304K, reserved 1048576K
+2023-03-06T01:28:17.344+0000: 8.970: [GC (Allocation Failure) [PSYoungGen: 30784K->32K(32256K)] 42572K->11832K(100864K), 0.0020061 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+Heap after GC invocations=49 (full 0):
+ PSYoungGen      total 32256K, used 32K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 30720K, 0% used [0x00000000fdf00000,0x00000000fdf00000,0x00000000ffd00000)
+  from space 1536K, 2% used [0x00000000ffd00000,0x00000000ffd08000,0x00000000ffe80000)
+  to   space 1024K, 0% used [0x00000000fff00000,0x00000000fff00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11800K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa786070,0x00000000fdf00000)
+ Metaspace       used 16802K, capacity 17250K, committed 17664K, reserved 1064960K
+  class space    used 2149K, capacity 2230K, committed 2304K, reserved 1048576K
+}
+[33m[Mar 06 01:28:17.366000000] [WARN] [Thread 10] [0mAn exception was caught from NettyTcpAddress(/10.138.0.61:58242) to NettyTcpAddress(/10.138.0.60:10100).
+java.io.IOException: Connection reset by peer
+java.io.IOException: Connection reset by peer
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1125)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:677)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:612)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:529)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:491)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+
+[36m[Mar 06 01:28:17.368000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.60:10100) and remote address NettyTcpAddress(/10.138.0.61:58242).
+Heap
+ PSYoungGen      total 32256K, used 10330K [0x00000000fdf00000, 0x0000000100000000, 0x0000000100000000)
+  eden space 30720K, 33% used [0x00000000fdf00000,0x00000000fe90e938,0x00000000ffd00000)
+  from space 1536K, 2% used [0x00000000ffd00000,0x00000000ffd08000,0x00000000ffe80000)
+  to   space 1024K, 0% used [0x00000000fff00000,0x00000000fff00000,0x0000000100000000)
+ ParOldGen       total 68608K, used 11800K [0x00000000f9c00000, 0x00000000fdf00000, 0x00000000fdf00000)
+  object space 68608K, 17% used [0x00000000f9c00000,0x00000000fa786070,0x00000000fdf00000)
+ Metaspace       used 16873K, capacity 17296K, committed 17664K, reserved 1064960K
+  class space    used 2156K, capacity 2265K, committed 2304K, reserved 1048576K

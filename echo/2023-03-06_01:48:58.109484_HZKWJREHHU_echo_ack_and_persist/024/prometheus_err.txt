@@ -1,0 +1,21 @@
+ts=2023-03-06T01:54:14.026Z caller=main.go:512 level=info msg="No time or size retention was set so using the default time retention" duration=15d
+ts=2023-03-06T01:54:14.026Z caller=main.go:556 level=info msg="Starting Prometheus Server" mode=server version="(version=2.42.0, branch=HEAD, revision=225c61122d88b01d1f0eaaee0e05b6f3e0567ac0)"
+ts=2023-03-06T01:54:14.026Z caller=main.go:561 level=info build_context="(go=go1.19.5, platform=linux/amd64, user=root@c67d48967507, date=20230201-07:53:32)"
+ts=2023-03-06T01:54:14.026Z caller=main.go:562 level=info host_details="(Linux 5.4.0-1100-gcp #109~18.04.1-Ubuntu SMP Wed Jan 25 21:16:55 UTC 2023 x86_64 eval-primary (none))"
+ts=2023-03-06T01:54:14.026Z caller=main.go:563 level=info fd_limits="(soft=1048576, hard=1048576)"
+ts=2023-03-06T01:54:14.026Z caller=main.go:564 level=info vm_limits="(soft=unlimited, hard=unlimited)"
+ts=2023-03-06T01:54:14.037Z caller=web.go:561 level=info component=web msg="Start listening for connections" address=0.0.0.0:9090
+ts=2023-03-06T01:54:14.038Z caller=main.go:993 level=info msg="Starting TSDB ..."
+ts=2023-03-06T01:54:14.040Z caller=tls_config.go:232 level=info component=web msg="Listening on" address=[::]:9090
+ts=2023-03-06T01:54:14.040Z caller=tls_config.go:235 level=info component=web msg="TLS is disabled." http2=false address=[::]:9090
+ts=2023-03-06T01:54:14.057Z caller=head.go:564 level=info component=tsdb msg="Replaying on-disk memory mappable chunks if any"
+ts=2023-03-06T01:54:14.057Z caller=head.go:608 level=info component=tsdb msg="On-disk memory mappable chunks replay completed" duration=2.566µs
+ts=2023-03-06T01:54:14.057Z caller=head.go:614 level=info component=tsdb msg="Replaying WAL, this may take a while"
+ts=2023-03-06T01:54:14.059Z caller=head.go:685 level=info component=tsdb msg="WAL segment loaded" segment=0 maxSegment=0
+ts=2023-03-06T01:54:14.059Z caller=head.go:722 level=info component=tsdb msg="WAL replay completed" checkpoint_replay_duration=861.161µs wal_replay_duration=1.17559ms wbl_replay_duration=148ns total_replay_duration=2.064989ms
+ts=2023-03-06T01:54:14.061Z caller=main.go:1012 level=warn fs_type=NFS_SUPER_MAGIC msg="This filesystem is not supported and may lead to data corruption and data loss. Please carefully read https://prometheus.io/docs/prometheus/latest/storage/ to learn more about supported filesystems."
+ts=2023-03-06T01:54:14.061Z caller=main.go:1017 level=info msg="TSDB started"
+ts=2023-03-06T01:54:14.061Z caller=main.go:1197 level=info msg="Loading configuration file" filename=/mnt/nfs/tmp/2023-03-06_01:48:58.109484_HZKWJREHHU_echo_ack_and_persist/024/prometheus.yml
+ts=2023-03-06T01:54:14.068Z caller=main.go:1234 level=info msg="Completed loading of configuration file" filename=/mnt/nfs/tmp/2023-03-06_01:48:58.109484_HZKWJREHHU_echo_ack_and_persist/024/prometheus.yml totalDuration=6.360686ms db_storage=1.135µs remote_storage=1.533µs web_handler=548ns query_engine=1.372µs scrape=5.522821ms scrape_sd=94.079µs notify=1.745µs notify_sd=2.151µs rules=2.162µs tracing=5.852µs
+ts=2023-03-06T01:54:14.068Z caller=main.go:978 level=info msg="Server is ready to receive web requests."
+ts=2023-03-06T01:54:14.068Z caller=manager.go:974 level=info component="rule manager" msg="Starting rule manager..."

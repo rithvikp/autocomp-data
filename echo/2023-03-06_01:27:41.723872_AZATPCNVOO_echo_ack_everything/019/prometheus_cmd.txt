@@ -1,0 +1,1 @@
+prometheus --config.file=/mnt/nfs/tmp/2023-03-06_01:27:41.723872_AZATPCNVOO_echo_ack_everything/019/prometheus.yml --storage.tsdb.path=/mnt/nfs/tmp/2023-03-06_01:27:41.723872_AZATPCNVOO_echo_ack_everything/019/prometheus_data

@@ -1,0 +1,14 @@
+{
+    "num_clients_per_proc": 10,
+    "jvm_heap_size": "100m",
+    "persistLog": false,
+    "duration": "0:00:10",
+    "timeout": "0:00:03",
+    "warmup_duration": "0:00:03",
+    "warmup_timeout": "0:00:03",
+    "warmup_sleep": "0:00:01",
+    "client_lag": "0:00:01",
+    "profiled": false,
+    "monitored": true,
+    "prometheus_scrape_interval": "0:00:00.200000"
+}

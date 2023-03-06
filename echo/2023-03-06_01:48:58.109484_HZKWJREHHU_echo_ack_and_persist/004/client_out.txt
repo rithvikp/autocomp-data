@@ -1,0 +1,1046 @@
+[34m[Mar 06 01:49:40.595000000] [INFO] [Thread 1] [0mActor frankenpaxos.echo.BenchmarkClient@319b92f3 registering on address NettyTcpAddress(/10.138.0.61:10000).
+[34m[Mar 06 01:49:40.744000000] [INFO] [Thread 1] [0mClient warmup started.
+[36m[Mar 06 01:49:40.754000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:40.791000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.791000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.791000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.791000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.792000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.792000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.792000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.792000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.792000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.792000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.793000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.793000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.793000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.793000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.793000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.793000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.794000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.794000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.794000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.794000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.794000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.795000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.795000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.795000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.796000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.796000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.796000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.796000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.796000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.797000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.797000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.797000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.797000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.797000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.797000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.798000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.798000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.798000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.798000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.798000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.799000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.799000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.799000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.799000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.800000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.800000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.800000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.800000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.801000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.802000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.802000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.802000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.802000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.806000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.807000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.807000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.807000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.808000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.808000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.808000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.808000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.808000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.809000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.809000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.809000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.809000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.809000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.809000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.810000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.810000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.810000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.810000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.810000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.810000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.810000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.811000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.811000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.811000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.811000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.811000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.811000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.812000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.812000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.812000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.812000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.812000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.813000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.813000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.813000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.813000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.813000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.813000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.813000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.814000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.814000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.814000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.815000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.815000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.815000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[36m[Mar 06 01:49:40.815000000] [DEBUG] [Thread 10] [0mAttempted to send a message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100), but a channel is currently pending. The message is being buffered for later.
+[34m[Mar 06 01:49:40.819000000] [INFO] [Thread 10] [0mClient socket on address /10.138.0.61:34774 (a.k.a. NettyTcpAddress(/10.138.0.61:10000)) established connection with /10.138.0.60:10100.
+[36m[Mar 06 01:49:40.820000000] [DEBUG] [Thread 10] [0mA channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100) is being registered, and a set of 101 pending messages was found. We are sending the pending messages along the channel.
+[34m[Mar 06 01:49:43.744000000] [INFO] [Thread 1] [0mClient warmup finished successfully.
+[34m[Mar 06 01:49:44.751000000] [INFO] [Thread 1] [0mClients started.
+[33m[Mar 06 01:49:47.754000000] [WARN] [Thread 1] [0mClient futures timed out!
+[33m[Mar 06 01:49:47.755000000] [WARN] [Thread 1] [0mjava.util.concurrent.TimeoutException: Futures timed out after [3 seconds]
+[34m[Mar 06 01:49:47.755000000] [INFO] [Thread 1] [0mShutting down transport.
+[34m[Mar 06 01:49:47.756000000] [INFO] [Thread 1] [0mTransport shut down.
+[34m[Mar 06 01:49:47.757000000] [INFO] [Thread 1] [0mStopping prometheus.
+[36m[Mar 06 01:49:47.759000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to send message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100).
+[34m[Mar 06 01:49:47.760000000] [INFO] [Thread 1] [0mPrometheus stopped.
+[36m[Mar 06 01:49:47.761000000] [DEBUG] [Thread 10] [0mio.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[36m[Mar 06 01:49:47.761000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to send message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.761000000] [DEBUG] [Thread 10] [0mio.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[36m[Mar 06 01:49:47.761000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to send message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.761000000] [DEBUG] [Thread 10] [0mio.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[36m[Mar 06 01:49:47.761000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to send message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mio.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to send message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mio.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to send message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mio.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to send message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mio.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to send message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mio.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to send message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mio.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to send message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mio.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to send message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mio.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to send message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mio.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to send message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.762000000] [DEBUG] [Thread 10] [0mio.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[36m[Mar 06 01:49:47.763000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to send message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.763000000] [DEBUG] [Thread 10] [0mio.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[36m[Mar 06 01:49:47.763000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to send message from NettyTcpAddress(/10.138.0.61:10000) to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.763000000] [DEBUG] [Thread 10] [0mio.netty.channel.AbstractChannel$AbstractUnsafe.write(...)(Unknown Source)
+[36m[Mar 06 01:49:47.764000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.764000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.765000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.765000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.765000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.765000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.765000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.766000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.766000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.766000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.766000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.766000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.766000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.766000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.767000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.767000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.767000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.767000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.768000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.768000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.768000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.768000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.769000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.769000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.769000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.769000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.769000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.770000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.770000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.770000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.770000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.770000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.770000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.771000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.771000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.771000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.771000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.771000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.772000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.772000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.772000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.772000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.772000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.772000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.772000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.772000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.773000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.773000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.773000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.773000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.774000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.774000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.774000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.774000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.774000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.775000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.775000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.775000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.776000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.776000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.776000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.776000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.777000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.777000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.777000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.777000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.777000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.778000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.778000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.778000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.778000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.778000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.778000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.779000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.779000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.779000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.779000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.779000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.780000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.780000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.780000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.780000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.780000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.781000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.781000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.781000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.781000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.781000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.782000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.782000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.782000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.782000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.782000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.782000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.783000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.783000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.783000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.783000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.784000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.784000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.784000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.784000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.784000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.785000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.785000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.785000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.785000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.785000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.786000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.786000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.786000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.786000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.786000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.787000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.788000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.788000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.788000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.788000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.788000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.788000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.788000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.788000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.788000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.788000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.788000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.788000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.788000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.788000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.788000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.788000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.788000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.789000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.789000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.789000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.789000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.789000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.790000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.790000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.790000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.790000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.790000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.790000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.791000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.791000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.791000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.791000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.791000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.791000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.792000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.792000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.792000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.792000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.792000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.792000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.792000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.792000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.793000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.793000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.793000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.793000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.793000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.793000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.793000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.793000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.793000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.793000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.793000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.794000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.794000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.794000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.794000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.794000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.794000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.794000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.795000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.795000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.795000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.795000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.795000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.795000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.796000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.796000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.796000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.796000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.796000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.796000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.797000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.797000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.797000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.797000000] [DEBUG] [Thread 10] [0mNo channel was found between NettyTcpAddress(/10.138.0.61:10000) and NettyTcpAddress(/10.138.0.60:10100), so we are creating one.
+[36m[Mar 06 01:49:47.797000000] [DEBUG] [Thread 10] [0mFuture failed: Unable to connect to NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.798000000] [DEBUG] [Thread 10] [0mio.netty.resolver.AddressResolverGroup.getResolver(AddressResolverGroup.java:60)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect0(Bootstrap.java:200)
+io.netty.bootstrap.Bootstrap.doResolveAndConnect(Bootstrap.java:170)
+io.netty.bootstrap.Bootstrap.connect(Bootstrap.java:145)
+frankenpaxos.NettyTcpTransport.sendImpl(NettyTcpTransport.scala:429)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:457)
+frankenpaxos.NettyTcpTransport.send(NettyTcpTransport.scala:124)
+frankenpaxos.Chan.send(Chan.scala:13)
+frankenpaxos.echo.BenchmarkClient.echoImpl(BenchmarkClient.scala:54)
+frankenpaxos.echo.BenchmarkClient.$anonfun$echo$1(BenchmarkClient.scala:61)
+io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasksFrom(SingleThreadEventExecutor.java:380)
+io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:355)
+io.netty.util.concurrent.SingleThreadEventExecutor.confirmShutdown(SingleThreadEventExecutor.java:692)
+io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:505)
+io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:905)
+io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+java.lang.Thread.run(Thread.java:748)
+[36m[Mar 06 01:49:47.798000000] [DEBUG] [Thread 10] [0mSuccessfully unregistered channel between local address NettyTcpAddress(/10.138.0.61:10000) and remote address NettyTcpAddress(/10.138.0.60:10100).
+[36m[Mar 06 01:49:47.798000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.798000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.798000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.798000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.798000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.798000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.798000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.798000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.798000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.798000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.798000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.798000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.
+[36m[Mar 06 01:49:47.798000000] [DEBUG] [Thread 10] [0mUnregistering a channel with null source or destination addresses. The connection must have failed.

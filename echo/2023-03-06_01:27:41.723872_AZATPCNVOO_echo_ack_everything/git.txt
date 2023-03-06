@@ -1,0 +1,1 @@
+{"commit_hash": "1d9544e77bc81fba8a428d6ca243a1c0c6679a69", "commit_name": "Add an echo benchmark that also persists the log", "branch": "master"}

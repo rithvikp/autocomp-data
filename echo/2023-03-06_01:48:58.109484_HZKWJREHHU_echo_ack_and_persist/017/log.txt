@@ -1,0 +1,16 @@
+[Monday March 06, 01:52:37.312692] Servers started.
+[Monday March 06, 01:52:37.340534] Prometheus started.
+[Monday March 06, 01:52:38.341779] Client lag ended.
+[Monday March 06, 01:52:38.415850] Clients started and running for 0:00:10.
+[Monday March 06, 01:52:48.466085] Clients finished and processes terminated.
+[Monday March 06, 01:52:48.466472] Reading recorder data from the following CSVs:
+[Monday March 06, 01:52:48.466549] - /mnt/nfs/tmp/2023-03-06_01:48:58.109484_HZKWJREHHU_echo_ack_and_persist/017/client_data.csv
+[Monday March 06, 01:52:49.084167] Recorder data read.
+[Monday March 06, 01:52:49.084235] Setting aggregate recorder data index.
+[Monday March 06, 01:52:49.086362] Aggregate recorder data index set.
+[Monday March 06, 01:52:49.086408] Sorting aggregate recorder data on index.
+[Monday March 06, 01:52:49.087630] Aggregate recorder data sorted on index.
+[Monday March 06, 01:52:49.087674] Removing /mnt/nfs/tmp/2023-03-06_01:48:58.109484_HZKWJREHHU_echo_ack_and_persist/017/client_data.csv.
+[Monday March 06, 01:52:49.092287] Individual recorder data removed.
+[Monday March 06, 01:52:49.092523] Dropping prefix of aggregate recorder data.
+[Monday March 06, 01:52:49.097208] Prefix of aggregate recorder data dropped.
